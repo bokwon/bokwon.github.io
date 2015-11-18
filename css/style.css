@@ -1,0 +1,26 @@
+body {
+  font-family: 'Maven Pro', sans-serif;
+}
+
+h3 {
+  font-weight: bold;
+}
+a {color: #000;}
+a:hover, a:focus {color: #12866F; text-decoration: none;}
+
+.header-container {
+  padding: 20px;
+  position: fixed;
+  width: 100%;
+  background: rgba(243,244,244,0.9);
+  z-index: 1;
+}
+.profile-img { 
+  border-radius: 50%;
+}
+.profile { font-size: 12px; color: gray; }
+.header-menu { 
+  padding: 20px; text-align: center;
+}
+#about { margin-top: 160px; }
+section { height: 200px; }
