@@ -21,16 +21,16 @@
       <header>  
         <div class="row header_container">
           <div class="col-xs-12 col-sm-6">
-            <div class="col-sm-3 col-xs-4"><img src="img/temp_profile.jpg" class="profile_img img-responsive"></div>
-            <div class="col-sm-9 col-xs-8">
+            <div class="col-xs-3"><img src="img/temp_profile.jpg" class="profile_img img-responsive"></div>
+            <div class="col-xs-9">
               <h3>Boyoung Kwon</h3>
               <p class="profile">Web Developer & Amateur Ukulele Player</p>
             </div>
           </div>
           <div class="col-xs-12 col-sm-6 header_menu">
             <div class="col-xs-4"><a href="#" class="about">About</a></div>
-            <div class="col-xs-4"><a href="#" class="projects">Portfolio</a></div>
-            <div class="col-xs-4"><a href="#">Skills</a></div>
+            <div class="col-xs-4"><a href="#" class="portfolio">Portfolio</a></div>
+            <div class="col-xs-4"><a href="#" class="skills">Skills</a></div>
           </div>
         </div>
       </header>
@@ -40,20 +40,20 @@
             ABOUT ME
           </div>
           <div class="col-xs-12 about_container">
-            <p>Hello! I'm Boyoung. I'm a full stack developer. I spend a lot of time to code, learn new skills, and code more. I also love to travel, play a ukulele. Here, you can find my recent projects and writing. Thanks!</p>
+            <p>Hello! I'm Boyoung. I'm a full stack developer. I spend a lot of time to code, learn new skills, and code more. I also love to travel, play a ukulele.</p>
             <div class="sm_container">
               <ul>
-                <li><a href="https://www.linkedin.com/in/boyoung-kwon-80718710" target="_blank">LinkedIn</a></li>
-                <li><a href="https://github.com/bokwon" target="_blank">Github<a/></li>
-                <li><a href="https://twitter.com/blueagnes76" target="_blank">Twitter</a></li>
-                <li><a href="https://www.instagram.com/blueagnes/" target="_blank">Instagram</a></li>
+                <li class="s_link"><a href="https://www.linkedin.com/in/boyoung-kwon-80718710" target="_blank">LinkedIn</a></li>
+                <li class="s_link"><a href="https://github.com/bokwon" target="_blank">Github<a/></li>
+                <li class="s_link"><a href="https://twitter.com/blueagnes76" target="_blank">Twitter</a></li>
+                <li class="s_link"><a href="https://www.instagram.com/blueagnes/" target="_blank">Instagram</a></li>
               </ul>
-              <p>or, write me at <a href="mailto:boyoung.kwon@gmail.com">boyoung.kwon@gmail.com</a></p>
+              <p>Download my current <a href="img/Boyoung_Kwon_CV.pdf" download>resumé</a>, or write me at <a href="mailto:boyoung.kwon@gmail.com">boyoung.kwon@gmail.com</a></p>
             </div>
           </div>
         </div>
       </section>
-      <section id="projects">
+      <section id="portfolio">
         <div class="row">
           <div class="col-xs-12 menu_title">
             PORTFOLIO
@@ -101,17 +101,34 @@
               </div>
             </div>
           </div>
-
           <div class="col-xs-12">
             <div class="group_container">
               <p class="sub_title">Group Projects <span class="place">at <a href="http://flatironschool.com/" target="_blank" class="place">FLATIRON SCHOOL</a></span></p>
+              <div class="col-xs-6 col-sm-3">
+                <a href="https://github.com/bokwon/berf" class="p_img" target="_blank"><img src="img/berf.jpg"></a>
+                <div class="p_title">
+                  <p><a href="https://github.com/bokwon/berf" target="_blank">Berf</a></p>
+                </div>
+                <div class="p_description">
+                  <p>Ruby on Rails, Devise, Google contact API, typhoeus</p>
+                </div>
+              </div>
+              <div class="col-xs-6 col-sm-3">
+                <a href="http://flatiron-showcase.herokuapp.com/" class="p_img" target="_blank"><img src="img/flshowcase.jpg"></a>
+                <div class="p_title">
+                  <p><a href="http://flatiron-showcase.herokuapp.com/" target="_blank">Flatiron Showcase</a></p>
+                </div>
+                <div class="p_description">
+                  <p>Rails, with lots of help from awesome gems: Carrierwave, RMagick, and Octokit. Files are stored on Amazon S3.</p>
+                </div>
+              </div>
             </div>
           </div>
-          <div class="col-xs-12">
+          <!-- <div class="col-xs-12">
             <div class="personal_container">
-              <p>Personal Projects <span class="place">at <a href="#/" target="_blank">My favorite Coffee Shops!</a></span></p>
+              <p>Personal Projects</p>
             </div>
-          </div>
+          </div> -->
         </div>
       </section>
       <section id="skills">
@@ -120,12 +137,35 @@
             SKILLS
           </div>
           <div class="col-xs-12">
-            
+            <ul>
+              <li>OS/Server Linux, Mac OS X, Windows 2003/2008 Terminal Server</li>
+              <li>Programming languages / Framework: CSS3, HTML5, Ruby, JavaScript/CoffeeScript/JQuery Ruby on Rails, SQL</li>
+              <li>Database: MySql, SQLite, Oracle</li>
+          </ul>
+        </div>
+      </section>
+      <section id="training">
+        <div class="row">
+          <div class="col-xs-12 menu_title">
+            DEVELOPMENT TRAINING
+          </div>
+          <div class="col-xs-12">
+            <ul>
+              <li><a href="http://flatironschool.com/" target="_blank">The Flatiron School</a> (12-week full time Ruby on Rails Coding Bootcamp)</li>
+              <li><a href="http://www.freecodecamp.com/bokwon" target="_blank">FreeCodeCamp</a></li>
+              <li>Awesome Online Tutorials, books and technical blogs!</li>
+            </ul>
           </div>
         </div>
       </section>
     </div>
+    <footer>
+      <div class="col-xs-12 footer_container" >
+        <p class="footer">© <script>document.write(new Date().getFullYear())</script> Boyoung Kwon. Available in <a href="https://github.com/bokwon/bokwon.github.io" class="github_repo" target="_target">Github</a></p>
+      </div>
+    </footer>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/index.js"></script>
   </body>
 </html>
