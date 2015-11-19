@@ -4,7 +4,7 @@ $(document).ready(function(){
   });
 
   $('.portfolio').click(function(){
-    var offset = $('#about').height() + 50;
+    var offset = $('#about').height() + 60;
     $("html, body").animate({scrollTop: offset}, "slow");
   });
 
