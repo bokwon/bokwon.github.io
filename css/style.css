@@ -31,10 +31,14 @@ img {width: 100%;}
   display: inline-block; margin-right: 10px;
 }
 .s_link a{
-  color: rgb(44, 62, 80); font-weight: bold; letter-spacing: 1px; 
+  color: rgb(44, 62, 80); font-weight: bold; letter-spacing: 1px;
 }
 .s_link a:hover, .s_link a:focus {
   color: #12866F; text-decoration: none;
+}
+a.codepen{
+  color: #e89311;
+  letter-spacing: 1px;
 }
 section { padding: 20px 50px;}
 .place {font-size: 11px; color: gray;}
